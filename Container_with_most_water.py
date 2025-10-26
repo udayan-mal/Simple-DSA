@@ -1,24 +1,15 @@
-63. Program to find Container with most water (LeetCode 11),Python
-Problem Statement:
-You are given an integer array height of length n. Each element represents the height of a vertical line drawn at position i.
-Find two lines that together with the x-axis form a container, such that the container holds the most water.
-Return the maximum amount of water a container can store.
+#63. Program to find Container with most water (LeetCode 11),Python
+#Problem Statement:
+#You are given an integer array height of length n. Each element represents the height of a vertical line drawn at position i.
+#Find two lines that together with the x-axis form a container, such that the container holds the most water.
+#Return the maximum amount of water a container can store.
 
-Example:
-Input: height = [1,8,6,2,5,4,8,3,7]
-Output: 49
-Explanation: The lines at indices 1 and 8 form the container with the maximum area = min(8,7) * (8-1) = 7 * 7 = 49.
+#Example:
+#Input: height = [1,8,6,2,5,4,8,3,7]
+#utput: 49
+#Explanation: The lines at indices 1 and 8 form the container with the maximum area = min(8,7) * (8-1) = 7 * 7 = 49.
 
-Intuition:
-The area (amount of water) between two lines depends on:
-The shorter line’s height (since water can’t go above it).
-The distance between the two lines.
-We can use a two-pointer technique:
-Start with one pointer at the beginning and one at the end.
-Calculate the area.
-Move the pointer with the smaller height inward, since moving the taller one won’t increase the height of the container.
 
-Python Solution:
 def max_area(height):
     left = 0
     right = len(height) - 1
