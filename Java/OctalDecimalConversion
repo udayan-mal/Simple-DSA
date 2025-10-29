@@ -1,0 +1,29 @@
+import java.util.*;
+public class OctalDecimalConversion {
+    public static int octalToDecimal(int octal) {
+        int decimal = 0, n = 0;
+        while (octal > 0) {
+            int temp = octal % 10;
+            decimal += temp * Math.pow(8, n);
+            octal /= 10;
+            n++;
+        }
+        return decimal;
+    }
+    public static int decimalToOctal(int decimal) {
+        int octal = 0, i = 1;
+        while (decimal != 0) {
+            int rem = decimal % 8;
+            decimal /= 8;
+            octal += rem * i;
+            i *= 10;
+        }
+        return octal;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int choice = sc.nextInt();
+        if (choice == 1) System.out.println(octalToDecimal(sc.nextInt()));
+        else System.out.println(decimalToOctal(sc.nextInt()));
+    }
+}
