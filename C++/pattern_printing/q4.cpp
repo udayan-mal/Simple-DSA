@@ -9,7 +9,7 @@
 using namespace std;
 
 // Function to demonstrate printing pattern
-void pypart2(int n)
+void cpp(int n)
 {
     // number of spaces
     int k = 2 * n - 2;
@@ -44,6 +44,6 @@ int main()
     int n = 5;
 
     // Function Call
-    pypart2(n);
+    cpp(n);
     return 0;
 }

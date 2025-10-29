@@ -10,7 +10,7 @@
 using namespace std;
 
 // Function to demonstrate printing pattern
-void pypart(int n)
+void cpp(int n)
 {
     // Outer loop to handle number of rows
     // n in this case
@@ -33,6 +33,6 @@ void pypart(int n)
 int main()
 {
     int n = 5;
-    pypart(n);
+    cpp(n);
     return 0;
 }
