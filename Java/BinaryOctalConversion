@@ -1,0 +1,57 @@
+import java.util.*;
+public class BinaryOctalConversion {
+    public static int binaryToDecimal(int binary) {
+        int decimal = 0, n = 0;
+        while (binary > 0) {
+            int temp = binary % 10;
+            decimal += temp * Math.pow(2, n);
+            binary /= 10;
+            n++;
+        }
+        return decimal;
+    }
+    public static int decimalToBinary(int decimal) {
+        int binary = 0, i = 1;
+        while (decimal != 0) {
+            int rem = decimal % 2;
+            decimal /= 2;
+            binary += rem * i;
+            i *= 10;
+        }
+        return binary;
+    }
+    public static int binaryToOctal(int binary) {
+        int decimal = binaryToDecimal(binary);
+        return decimalToOctal(decimal);
+    }
+    public static int decimalToOctal(int decimal) {
+        int octal = 0, i = 1;
+        while (decimal != 0) {
+            int rem = decimal % 8;
+            decimal /= 8;
+            octal += rem * i;
+            i *= 10;
+        }
+        return octal;
+    }
+    public static int octalToBinary(int octal) {
+        int decimal = octalToDecimal(octal);
+        return decimalToBinary(decimal);
+    }
+    public static int octalToDecimal(int octal) {
+        int decimal = 0, n = 0;
+        while (octal > 0) {
+            int temp = octal % 10;
+            decimal += temp * Math.pow(8, n);
+            octal /= 10;
+            n++;
+        }
+        return decimal;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int choice = sc.nextInt();
+        if (choice == 1) System.out.println(binaryToOctal(sc.nextInt()));
+        else System.out.println(octalToBinary(sc.nextInt()));
+    }
+}
