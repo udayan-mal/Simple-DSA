@@ -660,6 +660,6 @@ Want to add a problem to this list?
 
 **Happy Coding! 💻✨**
 
-Made with ❤️ by the Simple DSA Community
+**Curated & documented with ❤️ by** [Ayush Hardeniya](https://github.com/ayushHardeniya)
 
 </div>
