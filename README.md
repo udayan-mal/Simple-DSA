@@ -7,8 +7,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![First Timers Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)
-![GitHub Stars](https://img.shields.io/github/stars/noodles-sed/Simple-DSA?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/noodles-sed/Simple-DSA?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/OWNER/Simple-DSA?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/OWNER/Simple-DSA?style=social)
 
 **A beginner-friendly collection of Data Structures and Algorithms problems**
 
@@ -71,8 +71,8 @@ Perfect for first-time contributors and Hacktoberfest 2025 participants
 
 | 📈 Metric | 🔢 Count |
 |-----------|----------|
-| **Total Problems** | 115+ |
-| **Categories** | 6 |
+| **Total Problems** | 200+ |
+| **Categories** | 10+ |
 | **Supported Languages** | Any |
 | **Contributors** | [See contributors.json](contributors.json) |
 
@@ -82,31 +82,43 @@ Perfect for first-time contributors and Hacktoberfest 2025 participants
 
 ## 🗂️ Problem Categories
 
-Our problems are organized into **6 progressive categories**:
+Our problems are organized into **comprehensive categories** covering all major DSA topics:
 
 ```
 📁 Categories
 │
-├── 🟢 Basic Programming & Arithmetic (Q1-Q9)
+├── 🟢 Basic Programming & Arithmetic
 │   └── Fundamental operations and syntax
 │
-├── 🟡 Control Flow & Decision Making (Q10-Q16)
+├── 🟡 Control Flow & Decision Making
 │   └── Conditionals and logical operations
 │
-├── 🟠 Loops, Functions & Recursion (Q17-Q42)
+├── 🟠 Loops, Functions & Recursion
 │   └── Iteration, function design, and recursive thinking
 │
-├── 🔵 Arrays & Matrices (Q43-Q52)
+├── 🔵 Arrays & Matrices
 │   └── Array manipulation and matrix operations
 │
-├── 🟣 Strings & Structures (Q53-Q62)
-│   └── String processing and data structures
+├── 🟣 Strings & Pattern Matching
+│   └── String processing and algorithms
 │
-└── 🔴 Advanced Challenges (Q63+)
-    └── LeetCode-style algorithmic problems
+├── 🔴 Searching & Sorting
+│   └── Classic search and sort algorithms
+│
+├── 🟤 Linked Lists
+│   └── Single, double, and circular linked lists
+│
+├── ⚫ Trees & Graphs
+│   └── Binary trees, BST, graphs, and traversals
+│
+├── 🟥 Dynamic Programming
+│   └── Memoization and tabulation techniques
+│
+└── 🟦 Advanced Data Structures
+    └── Heaps, tries, segment trees, and more
 ```
 
-> **📝 Note:** Complete problem descriptions are available in [PROBLEM_LIST.md](PROBLEM_LIST.md)
+> **📝 Note:** Complete problem descriptions with LeetCode integration are available in [PROBLEM_LIST.md](PROBLEM_LIST.md)
 
 ---
 
@@ -123,10 +135,11 @@ git clone https://github.com/YOUR_USERNAME/Simple-DSA.git
 # 3. Navigate to the directory
 cd Simple-DSA
 
-# 4. Create a new branch
-git checkout -b add-solution-qXX-language
+# 4. Check available problems
+# Browse PROBLEM_LIST.md to select a problem
 
-# 5. Start coding! 💻
+# 5. Create an issue for the problem you want to solve
+# Wait for assignment before starting work
 ```
 
 ### 📋 Prerequisites
@@ -145,30 +158,53 @@ git checkout -b add-solution-qXX-language
 
 ```mermaid
 graph LR
-    A[Pick a Problem] --> B[Create Branch]
-    B --> C[Write Solution]
-    C --> D[Test Code]
-    D --> E[Update contributors.json]
-    E --> F[Commit Changes]
-    F --> G[Push to Fork]
-    G --> H[Create Pull Request]
-    H --> I[Code Review]
-    I --> J[Merge]
+    A[Browse PROBLEM_LIST.md] --> B[Create Issue]
+    B --> C[Wait for Assignment]
+    C --> D[Create Branch]
+    D --> E[Write Solution]
+    E --> F[Test Code]
+    F --> G[Update contributors.json]
+    G --> H[Commit Changes]
+    H --> I[Push to Fork]
+    I --> J[Create Pull Request]
+    J --> K[Code Review]
+    K --> L[Merge]
 ```
 
 ### Step-by-Step Guide
 
 <details>
-<summary><b>1️⃣ Choose a Problem</b></summary>
+<summary><b>1️⃣ Browse Available Problems</b></summary>
 
-- Browse the problem list in [PROBLEM_LIST.md](PROBLEM_LIST.md)
-- Check existing solutions to avoid duplicates
-- Select a problem that matches your skill level
+- Check [PROBLEM_LIST.md](PROBLEM_LIST.md) for the complete problem catalog
+- Problems are organized by difficulty and topic
+- Each problem includes description, constraints, and examples
+- LeetCode problems are linked for reference
 
 </details>
 
 <details>
-<summary><b>2️⃣ Set Up Your Development Environment</b></summary>
+<summary><b>2️⃣ Create an Issue</b></summary>
+
+**⚠️ IMPORTANT: You must create an issue and wait for assignment before starting work!**
+
+- Go to the [Issues](../../issues) tab
+- Click "New Issue" and select "Solution Submission"
+- Fill in the template:
+  ```
+  Problem: Q[number] - [Problem Name]
+  Language: [Your chosen language]
+  Description: Brief description of your approach
+  ```
+- Wait for a maintainer to assign the issue to you
+- **Do not start coding until assigned!**
+
+</details>
+
+<details>
+<summary><b>3️⃣ Set Up Your Development Environment</b></summary>
+
+**Only after assignment:**
 
 ```bash
 # Create and switch to a new branch
@@ -181,7 +217,7 @@ git pull origin main
 </details>
 
 <details>
-<summary><b>3️⃣ Write Your Solution</b></summary>
+<summary><b>4️⃣ Write Your Solution</b></summary>
 
 - Follow the [file structure guidelines](REPOSITORY_STRUCTURE.md)
 - Use proper naming conventions: `q[number]_description.ext`
@@ -197,7 +233,7 @@ Language/
 </details>
 
 <details>
-<summary><b>4️⃣ Update contributors.json</b></summary>
+<summary><b>5️⃣ Update contributors.json</b></summary>
 
 Add your information to the `contributors.json` file:
 
@@ -213,7 +249,7 @@ Add your information to the `contributors.json` file:
 </details>
 
 <details>
-<summary><b>5️⃣ Commit and Push</b></summary>
+<summary><b>6️⃣ Commit and Push</b></summary>
 
 ```bash
 # Stage your changes
@@ -229,11 +265,12 @@ git push origin add-solution-q15-python
 </details>
 
 <details>
-<summary><b>6️⃣ Create a Pull Request</b></summary>
+<summary><b>7️⃣ Create a Pull Request</b></summary>
 
 - Go to your fork on GitHub
 - Click "Compare & pull request"
 - Fill out the PR template completely
+- **Link the issue you created** using "Closes #issue-number"
 - Wait for review and feedback
 
 </details>
@@ -246,6 +283,7 @@ git push origin add-solution-q15-python
 
 ### ✅ We Accept
 
+- ✔️ Solutions for assigned issues only
 - ✔️ Well-tested, working solutions
 - ✔️ Solutions in any programming language
 - ✔️ Clean, documented code with comments
@@ -254,6 +292,8 @@ git push origin add-solution-q15-python
 
 ### ❌ We Reject
 
+- ✖️ PRs without a linked issue
+- ✖️ Solutions for unassigned problems
 - ✖️ Plagiarized or copied code
 - ✖️ Duplicate solutions in the same language
 - ✖️ Untested or broken code
@@ -264,6 +304,7 @@ git push origin add-solution-q15-python
 
 All contributions must follow our quality standards:
 
+- **Issue Requirement**: Must have an assigned issue before PR
 - **Code Quality**: Clean, readable, and well-structured
 - **Documentation**: Include comments and complexity analysis
 - **Testing**: Thoroughly tested with multiple test cases
@@ -279,12 +320,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for complete guidelines.
 ```
 Simple-DSA/
 ├── 📄 README.md
+├── 📄 PROBLEM_LIST.md
 ├── 📄 LICENSE
 ├── 📄 CODE_OF_CONDUCT.md
 ├── 📄 CONTRIBUTING.md
 ├── 📄 SECURITY.md
 ├── 📄 REPOSITORY_STRUCTURE.md
-├── 📄 CONTRIBUTORS.md
 ├── 📊 contributors.json
 │
 ├── 📁 .github/
@@ -298,9 +339,7 @@ Simple-DSA/
 ├── 📁 C++/
 ├── 📁 Java/
 ├── 📁 Python/
-├── 📁 javascript/
-├── 📁 DSA_problems/
-├── 📁 database question/
+├── 📁 JavaScript/
 └── 📁 [Your Language]/
 ```
 
@@ -352,7 +391,82 @@ MIT License - Copyright (c) 2025 Simple DSA Contributors
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=noodles-sed/Simple-DSA&type=Date)](https://star-history.com/#noodles-sed/Simple-DSA&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=OWNER/Simple-DSA&type=Date)](https://star-history.com/#OWNER/Simple-DSA&Date)
+
+---
+
+## 👥 Project Leadership & Architecture
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://github.com/ayushHardeniya.png" width="120" style="border-radius: 50%;"/>
+<br>
+<h3>🏗️ Core Project Architect</h3>
+<h2><b>Ayush Sharma</b></h2>
+<p><i>@ayushHardeniya</i></p>
+<p><b>Repository Curator & Documenter</b></p>
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-hardeniya/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayushHardeniya)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ayush_hardeniya)
+
+<details>
+<summary><b>📋 View Detailed Contributions</b></summary>
+<br>
+<table border ="1">
+<tr><td><b>📐 Documentation & Design</b></td></tr>
+<tr><td>✅ Complete repository structure & organization</td></tr>
+<tr><td>✅ Comprehensive problem catalog (200+ problems)</td></tr>
+<tr><td>✅ LeetCode integration & curated sheets mapping</td></tr>
+<tr><td>✅ Redesigned README.md with modern layout</td></tr>
+<tr><td>✅ Complete PROBLEM_LIST.md documentation</td></tr>
+<tr><td>✅ Contribution guidelines & workflow templates</td></tr>
+<tr><td>✅ File naming conventions & repository standards</td></tr>
+<tr><td>✅ Community management & issue templates</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td><b>💻 Code Contributions</b></td></tr>
+<tr><td>✅ Multiple C++ solutions (1838.cpp, 118.cpp)</td></tr>
+<tr><td>✅ Advanced problems (Minimize_the_heights.cpp)</td></tr>
+<tr><td>✅ LeetCode problems (119.cpp and many more)</td></tr>
+<tr><td>✅ Well-documented code with complexity analysis</td></tr>
+</table>
+</details>
+
+</td>
+<td>        </td>
+<td align="center" width="50%">
+<img src="https://github.com/noodles-sed.png" width="120" style="border-radius: 50%;"/>
+<br>
+<h3>👨‍💼 Project Admin</h3>
+<h2><b>Noodles Sed</b></h2>
+<p><i>@noodles-sed</i></p>
+<p><b>Repository Maintainer & Admin</b></p>
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/noodles-sed)
+
+
+<details>
+<summary><b>📋 View Responsibilities</b></summary>
+<br>
+<table border = "1">
+<tr><td>✅ Repository administration & management</td></tr>
+<tr><td>✅ Pull request reviews & approvals</td></tr>
+<tr><td>✅ Issue triage & assignment</td></tr>
+<tr><td>✅ Community moderation & support</td></tr>
+<tr><td>✅ Maintaining code quality standards</td></tr>
+<tr><td>✅ Project oversight & coordination</td></tr>
+<tr><td>✅ Contributor engagement & recognition</td></tr>
+</table>
+</details>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -363,6 +477,8 @@ Special thanks to:
 - 🎃 **Hacktoberfest** for promoting open-source contributions
 - 👥 **All Contributors** for their valuable solutions
 - 🌍 **Open Source Community** for continuous support
+- 📚 **LeetCode** for problem inspiration and references
+- 🎯 **Striver, NeetCode, and other educators** for curated DSA sheets
 
 ---
 
@@ -370,7 +486,7 @@ Special thanks to:
 
 ### 🚀 Ready to Contribute?
 
-**[Fork this Repository](https://github.com/noodles-sed/Simple-DSA/fork)** | **[Read Contributing Guide](CONTRIBUTING.md)** | **[View Problems](PROBLEM_LIST.md)**
+**[Fork this Repository](https://github.com/OWNER/Simple-DSA/fork)** | **[View Problems](PROBLEM_LIST.md)** | **[Create Issue](../../issues/new/choose)**
 
 ---
 
@@ -382,8 +498,9 @@ If you find this project helpful, please consider:
 
 ---
 
-**Made with ❤️ by the Simple-DSA Community**
-**Initiated By - noodles-sed**
+**Project Admin - [noodles-sed](https://github.com/noodles-sed)**
+
+**This Repository is Documented & Structurized with ❤️ by [Ayush Hardeniya](https://github.com/ayushHardeniya)** 
 
 **Happy Coding! 💻✨**
 
