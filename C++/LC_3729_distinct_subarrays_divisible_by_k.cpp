@@ -18,7 +18,7 @@ Key Insight:
   2. Update the remainder frequency map after processing the block.
 Complexity:
 -----------------------------------
-Time Complexity: O(N*log(N))
+Time Complexity: O(N*log(K))
 Space Complexity: O(K) , depending on distinct remainders
 */
 
