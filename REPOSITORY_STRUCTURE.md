@@ -9,23 +9,22 @@ Simple-DSA/
 │
 ├── README.md                          # Main repository documentation
 ├── LICENSE                            # MIT License file
-├── CODE_OF_CONDUCT.md                # Community guidelines
+├── CODE_OF_CONDUCT.md                 # Community guidelines
 ├── CONTRIBUTING.md                    # Contribution guidelines
 ├── SECURITY.md                        # Security policy
-├── REPOSITORY_STRUCTURE.md           # This file - structure documentation
-├── CONTRIBUTORS.md                    # Contributors list (display format)
+├── REPOSITORY_STRUCTURE.md            # This file - structure documentation
 ├── contributors.json                  # Contributors data (JSON format)
 │
 ├── .github/                          # GitHub specific files
-│   ├── ISSUE_TEMPLATE/              # Issue templates
-│   │   ├── bug_report.md           # Template for bug reports
-│   │   ├── feature_request.md      # Template for feature requests
-│   │   └── solution_submission.md  # Template for solution submissions
+│   ├── ISSUE_TEMPLATE/               # Issue templates
+│   │   ├── bug_report.md             # Template for bug reports
+│   │   ├── feature_request.md        # Template for feature requests
+│   │   └── solution_submission.md    # Template for solution submissions
 │   │
-│   ├── pull_request_template.md     # PR template
+│   ├── pull_request_template.md      # PR template
 │   │
-│   └── workflows/                   # GitHub Actions (optional)
-│       └── greetings.yml           # Welcome message for new contributors
+│   └── workflows/                    # GitHub Actions (optional)
+│       └── greetings.yml             # Welcome message for new contributors
 │
 ├── C/                               # C language solutions
 │   ├── q1_hello_world.c
