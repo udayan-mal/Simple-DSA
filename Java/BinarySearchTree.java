@@ -1,9 +1,9 @@
 /**
  * Implementation of Binary Search Tree with basic operations
- * - Insertion
- * - Deletion
- * - Search
- * - Traversals (Inorder, Preorder, Postorder)
+ * - Insertion: Adds a new node to the tree
+ * - Deletion: Removes a node from the tree
+ * - Search: Finds a node in the tree
+ * - Traversals: Inorder, Preorder, Postorder
  */
 class BinarySearchTree {
     class Node {
