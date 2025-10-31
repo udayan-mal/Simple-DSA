@@ -7,8 +7,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![First Timers Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)
-![GitHub Stars](https://img.shields.io/github/stars/OWNER/Simple-DSA?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/OWNER/Simple-DSA?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/noodles-sed/Simple-DSA?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/noodles-sed/Simple-DSA?style=social)
 
 **A beginner-friendly collection of Data Structures and Algorithms problems**
 
@@ -407,7 +407,7 @@ MIT License - Copyright (c) 2025 Simple DSA Contributors
 <h3>🏗️ Core Project Architect</h3>
 <h2><b>Ayush Sharma</b></h2>
 <p><i>@ayushHardeniya</i></p>
-<p><b>Repository Curator & Documenter</b></p>
+<p><b>Repository Maintener & Curator</b></p>
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-hardeniya/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayushHardeniya)
@@ -478,7 +478,7 @@ Special thanks to:
 - 👥 **All Contributors** for their valuable solutions
 - 🌍 **Open Source Community** for continuous support
 - 📚 **LeetCode** for problem inspiration and references
-- 🎯 **Striver, NeetCode, and other educators** for curated DSA sheets
+- 🎯 **Striver, NeetCode, and other educators** for curated DSA sheets (Available at [PROBLEM_LIST.md](PROBLEM_LIST.md)
 
 ---
 
