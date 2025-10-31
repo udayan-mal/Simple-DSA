@@ -130,7 +130,7 @@ Our problems are organized into **comprehensive categories** covering all major 
 # 1. Fork and star this repository ⭐
 
 # 2. Clone your fork
-git clone https://github.com/YOUR_USERNAME/Simple-DSA.git
+git clone https://github.com/noodles-sed/Simple-DSA.git
 
 # 3. Navigate to the directory
 cd Simple-DSA
