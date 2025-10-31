@@ -414,7 +414,7 @@ MIT License - Copyright (c) 2025 Simple DSA Contributors
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ayush_hardeniya)
 
 <details>
-<summary><b>📋 View Detailed Contributions</b></summary>
+<summary><b>📋 View Contributions</b></summary>
 <br>
 <table border ="1">
 <tr><td><b>📐 Documentation & Design</b></td></tr>
